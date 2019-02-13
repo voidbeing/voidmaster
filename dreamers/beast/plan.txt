@@ -1,0 +1,10 @@
+
+- Need to learn some reinforcement learning theory first
+
+- Game flow
+  - getting snapshots
+    - reuse some watcher part to recongnize things
+  - feed the info into tained model
+  - do action
+  - recieve reward/penalty
+    - update the model accordingly.  how?

@@ -1,0 +1,14 @@
+
+- Preprocess?
+  - Download some videos
+  - extract the frames
+    - X11 tricks
+
+- Environment detection
+  - 3D FFT tricks to segmentation moving objects(the knight & enemies)
+  - how to tell normal ground/walls and thrones/spikes?
+    - very interesting ...
+
+- Move detection
+  - how to tell which segment is the knight?
+  - Classify the segment contents

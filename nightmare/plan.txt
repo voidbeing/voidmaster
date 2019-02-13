@@ -1,0 +1,12 @@
+
+- User space 
+  - send action from beast to kernel
+  - send from kernel reward/penalty to beast
+  - being as part of beast will be easier
+
+- Kernel space
+  - generate fake key event to the game
+  - capture sound effect (is this even possible?)
+    - if OK, this can be the reward/penalty front end
+    - if not OK, we still have (time, life)
+      - timing is tricky

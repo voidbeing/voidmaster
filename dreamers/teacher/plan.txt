@@ -1,0 +1,10 @@
+
+- Input
+  - takes n most close enemy objects position/speed
+  - environment
+    - how to pass ground/wall and thrones/spikes?
+
+- Output
+  - corresponding key events
+  - or should be some combination of them?
+  - or move/jump/focus/nail/dash should be different neural network?
