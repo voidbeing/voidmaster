@@ -1,0 +1,38 @@
+
+2019.02.13
+
+Some thoughts.
+
+- Watcher: get some excellent plays on YouTube, and "watch" them.
+  - extract information from videos
+  - under what circumstances, the knight did what
+    - circumstances: positions, room shape, objects
+    - the knight: moves, attack, jump, dash, focus, spell, swordart
+
+- Teacher: train a neural network based on the Watcher's output.
+  - input: the circumstances
+  - output: the move of the knight (in key events)
+
+- Beast: hunt bosses based on the Teacher's work.
+  - reenforcement learning?
+    - rewards
+      - stand still
+      - hit/spell damage/swordart success
+      - success focus
+      - counter
+    - penalties
+      - time increases
+      - get damage
+
+- Nightmare Core: OS-related dirty work
+  - X window capturing
+  - keycode hooks/virtual input device
+  - bridge between dreamers and godseeker
+  - maybe I'll need a steamOS?
+
+Disclaimer: I will finish the pantheon of the hallownest before launching any
+valid results.
+
+2019.02.12
+
+Into the VoidMaster Project.
