@@ -1,4 +1,12 @@
 
+2019.02.14
+
+- enemies are not all objects, some attacks are beams
+
+- let's transform videos into frams first
+  - https://www.youtube.com/watch?v=FarUc_Yh_YY
+  - https://www.youtube.com/watch?v=FlnnuLc33CU
+
 2019.02.13
 
 Some thoughts.

@@ -2,7 +2,8 @@
 - Preprocess?
   - Download some videos
   - extract the frames
-    - X11 tricks
+    - openshot
+    - ffmpeg! ref link: https://www.bugcodemaster.com/article/extract-images-frame-frame-video-file-using-ffmpeg
 
 - Environment detection
   - 3D FFT tricks to segmentation moving objects(the knight & enemies)
