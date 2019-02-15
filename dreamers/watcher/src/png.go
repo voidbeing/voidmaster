@@ -22,7 +22,7 @@ func main() {
 	for x := 0; x < w; x++ {
 		for y := 0; y < h; y++ {
 			oldColor := src.At(x, y)
-			_, _, _, a := oldColor.RGBA()
+			_, _, a, _ := oldColor.RGBA()
 			gray.Set(x, y, color.Gray{uint8(a)})
 		}
 	}
