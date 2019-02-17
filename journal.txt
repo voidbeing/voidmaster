@@ -1,4 +1,18 @@
 
+2019.02.16
+
+Add new working item: Void.  Void aims to learn some self-knowledge
+first, so that watcher can have prior knowledge of the knight, and 
+focus on interpret the observed situation.
+
+Some parts of beast and nightmare core involve in this taks.
+
+2019.02.15
+
+- some experiments, but all seem not effective
+  - continuous frames as a volume to perform a FFT3
+  - frames' averag and diff to perform a FFT2
+
 2019.02.14
 
 - enemies are not all objects, some attacks are beams
