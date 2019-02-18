@@ -1,0 +1,7 @@
+Module.symvers
+dream.ko  
+dream.mod.c  
+dream.mod.o  
+dream.o
+modules.order
+.*

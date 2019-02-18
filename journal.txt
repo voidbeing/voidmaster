@@ -1,4 +1,11 @@
 
+2019.02.18
+
+- dream.ko
+
+A character device.  Should try to expose input_handler_list, then
+be able to issue input_event() directly, and see what will happen.
+
 2019.02.16
 
 Add new working item: Void.  Void aims to learn some self-knowledge
