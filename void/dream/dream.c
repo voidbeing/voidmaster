@@ -7,24 +7,28 @@
 
 
 static ssize_t dream_read(struct file *filp, char *buffer, size_t length, loff_t *offset) {
-	printk("read\n");
-	return length;
+	return 0;
 }
 
 static ssize_t dream_write(struct file *filp, const char *buff, size_t length, loff_t *offset) {
-	printk("write\n");
-	return length;
+	return 0;
 }
 
 static int dream_open(struct inode *inode, struct file *file) {
-	printk("open\n");
 	return 0;
 }
+
+extern struct list_head input_dev_list;
 static int dream_release(struct inode *inode, struct file *file) {
-	printk("release\n");
-	struct input_handler *handler;
-	list_for_each_entry(handler, &input_handler_list, node)
-		printk("%s\n", handler->name);
+	struct input_dev *dev;
+	list_for_each_entry(dev, &input_dev_list, node)
+		if (!strcmp(dev->name, "Logitech USB Keyboard")) {
+			break;
+		}
+
+	input_event(dev, EV_KEY, 3, 1);
+	input_event(dev, EV_KEY, 3, 0);
+	input_sync(dev);
 	return 0;
 }
 

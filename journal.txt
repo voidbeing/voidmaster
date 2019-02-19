@@ -1,4 +1,24 @@
 
+2019.02.19
+
+- dream.ko seems working!
+
+Since this is quite environment-dependent, the general flow will be:
+
+1. patch kernel and use it.  
+   Expose the input_dev_list from drivers/input/input.c
+2. evtest
+   find out the keycode of the device
+3. a module (or eventually a systemcall).
+   input_event(dev,     // this should be obtained from scanning input_dev_list
+               EV_KEY,  // constant
+               keycode, // known from evtest
+               value)   // 0 is press, 1 is release
+4. input_sync(dev)
+
+There should be some kind of trigger to enable/disable the whole virtual input
+things, or it will be a mess and out of control.  
+
 2019.02.18
 
 - dream.ko
